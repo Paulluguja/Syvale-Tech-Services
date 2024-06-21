@@ -77,3 +77,53 @@ font-weight: bold;
 .section {
     padding-left: 50px;
 }
+
+
+.our-approach {
+    padding: 20px;
+    text-align: center;
+    font-family: Tomorrow;
+    color: #E1E1DF;
+    background-color: #1e1e1e;
+    text-align: left;
+}
+
+.our-approach h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.approach-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.approach-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.approach-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.approach-item p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .approach-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .approach-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

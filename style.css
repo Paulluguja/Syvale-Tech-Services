@@ -1,8 +1,9 @@
 body, html {
     margin: 0;
     padding: 0;
-
+padding-bottom: 0px;
     box-sizing: border-box;
+    background-color: #E1E1DF;
 
 .navi{
     color: grays;
@@ -17,7 +18,7 @@ body, html {
  }
 
 .gray {
-color: whitesmoke;
+color: #E1E1DF;
 font-weight: bold;
 }
 
@@ -28,7 +29,7 @@ font-weight: bold;
 
 
 .this {
-    color: whitesmoke;
+    color: #E1E1DF;
     font-size: 50px;
     font-weight: bolder;
 }
@@ -63,4 +64,16 @@ font-weight: bold;
     margin-left: 200px;
     justify-content: center;
     margin-top: 50px;
+}
+.container{
+    background-color: #E1E1DF;
+    font-family: Tomorrow;
+}
+
+.us{
+    text-align: center;
+}
+
+.section {
+    padding-left: 50px;
 }
